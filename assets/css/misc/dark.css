@@ -61,11 +61,14 @@
 .dark-mode .u-placeholder,
 .dark-mode pre,
 .dark-mode :not(pre) > code,
-.dark-mode .kg-header-card.kg-style-light {
+.dark-mode .kg-header-card.kg-style-light,
+.dark-mode .search-result-row-link:hover {
     background-color: var(--dark-mode-darker-bg-color);
 }
 
-.dark-mode .off-canvas {
+.dark-mode .off-canvas,
+.dark-mode .search-result,
+.dark-mode .search-field {
     background-color: var(--dark-mode-bg-color);
 }
 
@@ -85,6 +88,7 @@
     color: var(--white-color);
 }
 
-.dark-mode input[type="range"] {
+.dark-mode input[type="range"],
+.dark-mode .search-field {
     color: var(--dark-mode-primary-text-color);
 }
