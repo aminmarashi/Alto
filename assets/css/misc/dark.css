@@ -92,3 +92,7 @@
 .dark-mode .search-field {
     color: var(--dark-mode-primary-text-color);
 }
+
+.dark-mode .search-result {
+    box-shadow: 0 0 5px rgba(255,255,255,.15);
+}
