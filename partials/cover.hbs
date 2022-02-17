@@ -1,0 +1,9 @@
+{{#if @site.cover_image}}
+    <div class="site-cover u-overlay">
+        <div class="cover-content">
+            {{#if @custom.content_api_key_for_search}}
+                {{> search}}
+            {{/if}}
+        </div>
+    </div>
+{{/if}}

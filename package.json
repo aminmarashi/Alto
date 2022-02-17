@@ -54,6 +54,10 @@
             "white_logo_for_dark_mode": {
                 "type": "image"
             },
+            "content_api_key_for_search": {
+              "type": "text",
+              "group": "homepage"
+            },
             "show_featured_posts": {
                 "type": "boolean",
                 "default": true,

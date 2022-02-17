@@ -5,6 +5,8 @@
 @import "general/form.css";
 @import "site/header.css";
 @import "site/burger.css";
+@import "site/cover.css";
+@import "site/search.css";
 @import "site/switch.css";
 @import "site/layout.css";
 @import "site/term.css";

@@ -14,6 +14,10 @@
         if (localStorage.getItem('alto_dark') == 'true') {
             document.documentElement.classList.add('dark-mode');
         }
+        var siteUrl = '{{@site.url}}';
+        {{#if @custom.content_api_key_for_search}}
+            var gh_search_key = '{{@custom.content_api_key_for_search}}';
+        {{/if}}
     </script>
 
     {{ghost_head}}
@@ -23,6 +27,7 @@
     <div class="site">
         {{> header}}
         {{#is "home"}}
+            {{> cover}}
             {{#if @custom.show_featured_posts}}
                 {{> featured}}
             {{/if}}
